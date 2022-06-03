@@ -416,7 +416,7 @@ img {
 
 .data__unit:hover .data__icon,
 .data__unit:focus-within .data__icon {
-  fill: var(#2196f3);
+  fill: #2196f3;
 }
 
 .data__unit:hover .data__input,
@@ -471,13 +471,13 @@ img {
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  background-image: url(../imeges/checkbox.svg);
+  background-image: url(/imeges/checkbox.svg);
 }
 
 .agree__checkbox:checked + .agree__icon {
   border-color: transparent;
   background-color: #2196f3;
-  background-image: url(../imeges/icon-check.svg);
+  background-image: url(/imeges/icon-check.svg);
   background-size: cover;
   background-origin: border-box;
   border: 1px solid transparent;

@@ -154,7 +154,7 @@
   
   &__unit:hover &__icon,
   &__unit:focus-within &__icon {
-    fill: var($hover-color);
+    fill: $hover-color;
   }
   
   &__unit:hover &__input,
@@ -206,13 +206,13 @@
     
     margin-right: 8px;
     
-    background-image: url(../imeges/checkbox.svg);
+    background-image: url(/imeges/checkbox.svg);
    }
   
   &__checkbox:checked + &__icon {
     border-color: transparent;
     background-color: $hover-color;
-    background-image: url(../imeges/icon-check.svg);
+    background-image: url(/imeges/icon-check.svg);
     background-size: cover;
     background-origin:border-box;
     border: 1px solid transparent;
